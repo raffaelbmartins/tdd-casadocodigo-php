@@ -23,4 +23,14 @@ class MaiorEMenor
         }
     }
 
+    public function getMenor()
+    {
+        return $this->menor;
+    }
+
+    public function getMaior()
+    {
+        return $this->maior;
+    }
+
 }
